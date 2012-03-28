@@ -1,0 +1,71 @@
+a, html, legend { color : rgb( 55, 55, 55 ) ; }
+body, html { min-height : 100% ; }
+html, button, input, select, textarea { font-family : arial, sans-serif ; }
+
+address, article, aside,
+blockquote, body,
+dd, details, div, dl,
+fieldset, figcaption, figure, footer, form, 
+h1, h2, h3, h4, h5, h6,
+header, hgroup, html,
+legend, menu, nav, ol,
+p, pre,
+section, summary,
+ul {
+	background  : transparent ;
+	border      : none ;
+	display     : block ;
+	font-size   : x-small ; font-style : normal ; font-weight : normal ;
+	line-height : 1.3em ;
+	margin      : 0 ;
+	padding     : 0 ;
+	}
+
+abbr, acronym { border : 0 ; font-variant : normal ; }
+
+audio, canvas, dt, img, video { border : none ; display : inline-block ; }
+audio:not([controls]) { display : none ; height : 0 ; }
+
+:active, :focus, :hover { outline : none ; }
+[hidden] { display : none ; }
+
+mark { background : #ee3 ; color : #333 ; }
+
+pre { white-space : pre ; white-space : pre-wrap ; word-wrap : break-word ; }
+
+q { quotes : none ; }
+q:after, q:before { content : '' ; content : none ; }
+
+svg:not(:root) { overflow : hidden ; }
+
+button, input, select,
+textarea { font-size : 100% ; font-weight : normal ; margin : 0 ; padding : 0 ; vertical-align : baseline ; }
+button, input { line-height : 1.3em ; }
+
+table {
+   -moz-box-sizing  : border-box ; -webkit-box-sizing : border-box ;
+	box-sizing      : border-box ;
+	border-collapse : collapse   ;  border-spacing    : 0 ;
+	margin          : 0 ;
+	padding         : 0 ;
+	}
+tbody, td, tfoot, th, thead, tr { vertical-align : middle ; }
+td, th { font-weight : normal ; margin : 0 ; padding: 0 ; text-align : left ; }
+b, cite, code, dfn, em, i, strong, var { font-style : normal ; font-weight : normal ; }
+code, kbd, samp { font-family : monospace ; }
+li, menu, ol, ul { list-style : none ; }
+
+progress { vertical-align : 0 ; }
+
+button, input[type="button"],
+input[type="reset"], input[type="submit"] { cursor : pointer ; -webkit-appearance : button ; }
+button[disabled], input[disabled] { cursor : default ; }
+input[type="checkbox"], input[type="radio"] { box-sizing : border-box ; padding : 0 ; }
+input[type="search"] {
+    -webkit-appearance : textfield   ;
+    -moz-box-sizing    : content-box ;
+    -webkit-box-sizing : content-box ;
+     box-sizing        : content-box ;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button { -webkit-appearance : none ; }
