@@ -4,7 +4,7 @@ html, button, input, select, textarea { font-family : arial, sans-serif ; }
 
 address, article, aside,
 blockquote, body,
-dd, details, div, dl,
+dd, details, div, dl, dt,
 fieldset, figcaption, figure, footer, form, 
 h1, h2, h3, h4, h5, h6,
 header, hgroup, html,
@@ -23,7 +23,7 @@ ul {
 
 abbr, acronym { border : 0 ; font-variant : normal ; }
 
-audio, canvas, dt, img, video { border : none ; display : inline-block ; }
+audio, canvas, img, video { border : none ; display : inline-block ; margin : 0 ; padding : 0 ; }
 audio:not([controls]) { display : none ; height : 0 ; }
 
 :active, :focus, :hover { outline : none ; }
@@ -58,9 +58,14 @@ li, menu, ol, ul { list-style : none ; }
 progress { vertical-align : 0 ; }
 
 button, input[type="button"],
-input[type="reset"], input[type="submit"] { cursor : pointer ; -webkit-appearance : button ; }
+input[type="reset"], input[type="submit"] {
+	cursor            : pointer ;
+	margin            : 0 ;
+	padding           : 0 ;
+   -webkit-appearance : button ;
+	}
 button[disabled], input[disabled] { cursor : default ; }
-input[type="checkbox"], input[type="radio"] { box-sizing : border-box ; padding : 0 ; }
+input[type="checkbox"], input[type="radio"] { box-sizing : border-box ; margin : 0 ; padding : 0 ; }
 input[type="search"] {
     -webkit-appearance : textfield   ;
     -moz-box-sizing    : content-box ;
